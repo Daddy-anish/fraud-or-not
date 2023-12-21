@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 500px;
+}
+
 .toggle-switch {
   position: relative;
   display: inline-block;
@@ -53,4 +62,32 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.info-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dashboard-link {
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.dashboard-link:hover {
+  text-decoration: underline;
+}
+
+.url {
+  font-size: 0.95em;
+}
+
+.ssl {
+  font-size: 0.90em;
+  margin-top: 5px;
 }
