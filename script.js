@@ -1,6 +1,7 @@
 const toggleButton = document.getElementById("toggleButton");
 const messageDiv = document.getElementById("message");
 const URLdiv = document.getElementById("URL");
+const SSLdiv = document.getElementById("SSL");
 
 toggleButton.addEventListener("change", function () {
   if (this.checked) {
@@ -10,15 +11,17 @@ toggleButton.addEventListener("change", function () {
   }
 });
 
-// Query the current active tab in the current window
-// chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-//     // Set the text content of the HTML element with ID 'URLdiv' to the URL of the active tab
-//     URLdiv.textContent = tabs[0].url;
-// });
-
 toggleButton.addEventListener("change", function () {
   if (this.checked) {
-    const urlInfo = window.location.href;
-    URLdiv.textContent = urlInfo;
+    // Query the current active tab in the current window
+    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+      // Set the text content of the HTML element with ID 'URLdiv' to the URL of the active tab
+      const urlInfo = tabs[0].url;
+      const hasSSL = urlInfo.startsWith("https://");
+      URLdiv.textContent = urlInfo;
+      SSLdiv.textContent = hasSSL
+        ? "This site has an SSL certificate."
+        : "This site does not have an SSL certificate.";
+    });
   }
 });
