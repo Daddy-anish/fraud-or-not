@@ -1,0 +1,12 @@
+{
+  "name": "Fraud or not",
+  "version": "1.0.0",
+  "description": "Detects if a website is a fraud or not.",
+  "manifest_version": 3,
+  "author": "team",
+  "title": "Fraud or not",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Detects if a website is a fraud or not."
+  }
+}
