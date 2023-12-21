@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fraud or not extesnion</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -20,13 +20,21 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="toggle-switch">
-        <input type="checkbox" id="toggleButton" role="switch" aria-checked="false">
+    <div class="flex flex-col justify-center items-center p-4">
+      <div class="toggle-switch">
+        <input
+          type="checkbox"
+          id="toggleButton"
+          role="switch"
+          aria-checked="false"
+        />
         <label for="toggleButton" class="slider round"></label>
+      </div>
+      <div class="flex flex-col items-center font-mont mt-2">
+        <span>Realtime access : <span id="message">off</span></span>
+        <div class="url" id="URL"></div>
+        <a href="" class="mt-5 hover:underline text-xs font-bold">Dashboard</a>
+      </div>
     </div>
-    <dialog id="togglePopup" aria-describedby="toggleState" aria-label="Toggle State Popup">
-        <p id="toggleState">The toggle is switched off.</p>
-        <button id="closeButton">Close</button>
-    </dialog>
   </body>
 </html>
