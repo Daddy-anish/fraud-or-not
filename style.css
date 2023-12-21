@@ -54,8 +54,3 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-dialog {
-  width: 300px;
-  padding: 20px;
-}
