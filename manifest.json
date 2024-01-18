@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Pixet",
+  "description": "Detecting dark patterns",
+  "version": "0.0.1",
+  "action": {
+    "default_title": "Pixet",
+    "default_popup": "index.html"
+  },
+  "permissions": [],
+  "host_permissions": ["*://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["main.js"],
+      "ignore_list": ["node_modules"]
+    }
+  ]
+}
