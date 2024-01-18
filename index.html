@@ -4,18 +4,47 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Pixet</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
-      <div class="">Hello World</div>
-      <form id="extract-form">
-        <input type="text" id="url-input" placeholder="Enter URL" required />
-        <button type="submit">Extract</button>
+      <h1 class="head">Pixet</h1>
+      <form id="extract-form" class="url-form-class">
+        <div class="url-box-container">
+          <input
+            type="url"
+            id="url-input"
+            placeholder="Fetching..."
+            class="urlClass"
+            disabled
+          />
+        </div>
+        <button type="submit" class="url-submit">Fetch</button>
       </form>
-      <div id="loader" style="display: none;">Loading...</div>
-      <div id="result"></div>
+      <div class="infoBoxContainer">
+        <div class="infoBoxChildContainer">
+          <div class="gaugeChart">
+            <h2>Gauge Chart</h2>
+          </div>
+          <div class="chartContainer">
+            <div class="pieChart">
+            </div>
+            <div class="miscDiv">
+              <div class="phishingDetector">
+              </div>
+              <div class="reportAndKnowMore">
+                <button class="reportButton">Report</button>
+                <button class="knowMoreButton">Know More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="loader" style="display: none">Loading...</div> -->
+      <!-- <div id="result"></div> -->
     </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
