@@ -1,35 +1,33 @@
+import puppeteer from "puppeteer";
 import express from "express";
 import cors from "cors";
-import bodyParser from "body-parser";
-import scrapeData from "./puppeteerScript.js";
 
 const app = express();
+
 app.use(cors());
-app.use(bodyParser.json());
 
-const port = 3000;
-
-app.listen(port, () => {
-  console.log("Server is running on http://localhost:" + port);
+app.listen(3000, () => {
+  console.log("Server running on port http://localhost:3000");
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+app.get("/extract", async (req, res) => {
+  console.log("req.query.url", req.query.url);
+  const url = req.query.url;
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
+  await page.goto(url);
 
-app.post("/scrapedata", async (req, res) => {
-    const { link } = req.body;
+  const special_characters = /[\[\],"\{\}\(\)\<\>\/\?;\:|\`~\!\@\#\$\%\^\&\*\_\-\+\=\. ]/g;
 
-    // Check if link is provided
-    if (!link) {
-        return res.status(400).send("No link provided.");
-    }
-
-    try {
-        const scrapedData = await scrapeData(link);
-        res.send({ data: scrapedData });
-    } catch (error) {
-        console.error(error);
-        res.status(500).send("An error occurred while scraping data.");
-    }
+  const texts = await page.$$eval(
+    "p, h1, h2, h3, h4, h5, h6, li, a",
+    (elements, special_characters) =>
+      elements.map((element) =>
+        element.textContent.replace(special_characters, "")
+      ),
+    special_characters
+  );
+  await browser.close();
+  res.json({ texts });
+  // console.log("texts", texts);
 });

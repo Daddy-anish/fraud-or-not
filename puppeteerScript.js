@@ -1,0 +1,21 @@
+import puppeteer from 'puppeteer';
+import express from 'express';
+import cors from 'cors';
+
+const app = express();
+
+app.use(cors());
+
+app.get("/extract", async (req, res) => {
+    const url = req.query.url;
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.goto(url);
+    const texts = await page.$$eval("*", (elements) =>
+        elements.map((element) => element.textContent)
+    );
+    await browser.close();
+    res.json({ texts });
+});
+
+app.listen(3000);
