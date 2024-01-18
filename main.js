@@ -32,3 +32,4 @@ document
       .catch((error) => console.error("Error:", error));
     document.getElementById("loader").style.display = "block";
   });
+
