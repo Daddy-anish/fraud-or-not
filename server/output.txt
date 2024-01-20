@@ -1,29 +1,344 @@
+Jump to content
+Main page
+Main page
+Simple start
+Simple start
+Simple talk
+Simple talk
+New changes
+New changes
+Show any page
+Show any page
+Help
+Help
+Contact us
+Contact us
+Give to Wikipedia
+Give to Wikipedia
+About Wikipedia
+About Wikipedia
 
-  
-  About
-  About
-  Projects
-  Projects
-  Contact
-  Contact
-  
-  Hi there Im Grenish Rai 
-  Web Developer and UIUX Designer
-  Innovating through code shaping tomorrows tech Currently pursuing BCA
-  Find me here
-  
-  
-  
-  
-  Give someone a program you frustrate them for a day teach them how to program and you frustrate them for a lifetime  David Leinweber
-  Project Overview
-   View all 
-   View all 
-  CodersclubA website for a coding club at SMIT
-  Codersclub
-  A website for a coding club at SMIT
-  CoderjojoA portfolio website asked by a client
-  Coderjojo
-  A portfolio website asked by a client
-  Made with passion  All Rights Reserved
-  2023
+
+Search
+	
+Create account
+
+Create account
+Log in
+
+Log in
+ Create account
+ Create account
+ Log in
+ Log in
+learn more
+Contributions
+Contributions
+Talk
+Talk
+Contents
+
+			
+				Beginning
+			
+		
+
+				Beginning
+			
+
+		
+			
+			1Technology
+		
+		
+		
+		
+	
+
+			
+			1Technology
+		
+Webpage
+Afrikaans
+Afrikaans
+አማርኛ
+አማርኛ
+अंगिका
+अंगिका
+العربية
+العربية
+Aragonés
+Aragonés
+Asturianu
+Asturianu
+Azərbaycanca
+Azərbaycanca
+تۆرکجه
+تۆرکجه
+বাংলা
+বাংলা
+Bân-lâm-gú
+Bân-lâm-gú
+Беларуская
+Беларуская
+Беларуская (тарашкевіца)
+Беларуская (тарашкевіца)
+Български
+Български
+Boarisch
+Boarisch
+Bosanski
+Bosanski
+Català
+Català
+Čeština
+Čeština
+الدارجة
+الدارجة
+Deutsch
+Deutsch
+Eesti
+Eesti
+Ελληνικά
+Ελληνικά
+English
+English
+Español
+Español
+Esperanto
+Esperanto
+Euskara
+Euskara
+فارسی
+فارسی
+Français
+Français
+Gaeilge
+Gaeilge
+Galego
+Galego
+한국어
+한국어
+Հայերեն
+Հայերեն
+हिन्दी
+हिन्दी
+Hrvatski
+Hrvatski
+Ido
+Ido
+Bahasa Indonesia
+Bahasa Indonesia
+Interlingua
+Interlingua
+Íslenska
+Íslenska
+Italiano
+Italiano
+עברית
+עברית
+ქართული
+ქართული
+Kiswahili
+Kiswahili
+Kurdî
+Kurdî
+Latviešu
+Latviešu
+Lietuvių
+Lietuvių
+Lingua Franca Nova
+Lingua Franca Nova
+Magyar
+Magyar
+Македонски
+Македонски
+മലയാളം
+മലയാളം
+მარგალური
+მარგალური
+Bahasa Melayu
+Bahasa Melayu
+Мокшень
+Мокшень
+Монгол
+Монгол
+Nederlands
+Nederlands
+नेपाली
+नेपाली
+日本語
+日本語
+Norsk bokmål
+Norsk bokmål
+Олык марий
+Олык марий
+Oʻzbekcha / ўзбекча
+Oʻzbekcha / ўзбекча
+ភាសាខ្មែរ
+ភាសាខ្មែរ
+Polski
+Polski
+Português
+Português
+Română
+Română
+Runa Simi
+Runa Simi
+Русский
+Русский
+سنڌي
+سنڌي
+Slovenčina
+Slovenčina
+Slovenščina
+Slovenščina
+کوردی
+کوردی
+Српски / srpski
+Српски / srpski
+Srpskohrvatski / српскохрватски
+Srpskohrvatski / српскохрватски
+Suomi
+Suomi
+Svenska
+Svenska
+Tagalog
+Tagalog
+தமிழ்
+தமிழ்
+Татарча / tatarça
+Татарча / tatarça
+తెలుగు
+తెలుగు
+ไทย
+ไทย
+Тоҷикӣ
+Тоҷикӣ
+Türkçe
+Türkçe
+Українська
+Українська
+اردو
+اردو
+Tiếng Việt
+Tiếng Việt
+Wolof
+Wolof
+吴语
+吴语
+粵語
+粵語
+中文
+中文
+Change links
+Page
+Page
+Talk
+Talk
+Read
+Read
+Change
+Change
+Change source
+Change source
+View history
+View history
+Read
+Read
+Change
+Change
+Change source
+Change source
+View history
+View history
+What links here
+What links here
+Related changes
+Related changes
+Upload file
+Upload file
+Special pages
+Special pages
+Permanent link
+Permanent link
+Page information
+Page information
+Cite this page
+Cite this page
+Get shortened URL
+Get shortened URL
+Wikidata item
+Wikidata item
+Edit interlanguage links
+Edit interlanguage links
+Sandbox
+Sandbox
+Make a book
+Make a book
+Download as PDF
+Download as PDF
+Page for printing
+Page for printing
+URL
+hosted
+website
+[1] webpage (or web page) is a document from the internet which can be seen with a web browser.  Web pages each have a URL or address, which is how a page is found, and is different for every page.  When a webpage is part of a larger group of pages managed by a company, person, or organization, it is part of a website.
+
+[1]
+internet
+web browser
+URL
+website
+Pages can have words, pictures, videos, and links. Links are ways to get to other web pages.
+
+links
+For example, this article is a webpage. It has the URL https://simple.wikipedia.org/wiki/Webpage, and is part of the Wikipedia website.  It has words and links.  The links in this page are shown in blue and can be clicked to go to other webpages.
+
+https://simple.wikipedia.org/wiki/Webpage
+Technology[change | change source]
+change
+change source
+Web pages are usually stored in HTML code which describes what to show on the page like words or pictures. Web pages also use two other types of code to tell the page how to work: 
+
+HTML
+Cascading Style Sheets (or CSS) is a code used to tell the page how to look.
+Cascading Style Sheets
+JavaScript (or JS) is used to change the words, style, or pictures on the page.
+JavaScript
+pictures
+short article
+technology
+adding to it
+https://simple.wikipedia.org/w/index.php?title=Webpage&oldid=8763328
+Category
+Internet
+Internet
+Technology stubs
+Technology stubs
+ This page was last changed on 10 April 2023, at 02:40.
+Text is available under the Creative Commons Attribution-ShareAlike License and the GFDL; additional terms may apply. See Terms of Use for details.
+Creative Commons Attribution-ShareAlike License
+GFDL
+Terms of Use
+Privacy policy
+Privacy policy
+About Wikipedia
+About Wikipedia
+Disclaimers
+Disclaimers
+Code of Conduct
+Code of Conduct
+Developers
+Developers
+Statistics
+Statistics
+Cookie statement
+Cookie statement
+Mobile view
+Mobile view
+
+		
+
+Toggle limited content width
+

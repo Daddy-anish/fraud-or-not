@@ -1,25 +1,31 @@
-import { spawn } from 'child_process';
+import { spawn } from "child_process";
 
 const runPythonProcess = async () => {
   return new Promise((resolve, reject) => {
-    console.log("Im here on python");
+    console.log("Python is ready to go...");
 
-    let pythonOutput = '';
+    let pythonOutput = "";
 
-    const pythonProcess = spawn('C:/Users/Grenish/AppData/Local/Programs/Python/Python310/python.exe', ['tri-model.py']);
+    const pythonProcess = spawn(
+      "python",
+      ["./tri-model.py"]
+    );
     // console.log(pythonProcess);
-    pythonProcess.stdout.on('data', (data) => {
-      // console.log(`Python stdout: ${data}`);
+    pythonProcess.stdout.on("data", (data) => {
+      console.log("Im here on python stdout");
+      console.log(`Python stdout: ${data}`);
       pythonOutput += data.toString();
     });
 
-    pythonProcess.stderr.on('data', (data) => {
-      // console.error(`Python Error: ${data}`);
-      console.log("Im here on python error");
+    pythonProcess.stderr.on("data", (data) => {
+      console.error(`Python Error: ${data}`);
+      // console.log("Im here on python error");
     });
 
-    pythonProcess.on('close', (code) => {
-      console.log(`Python process exited with code ${code} and output sent to client`);
+    pythonProcess.on("close", (code) => {
+      console.log(
+        `Python process exited with code ${code} and output sent to client`
+      );
       resolve(pythonOutput);
     });
   });
