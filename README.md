@@ -51,13 +51,6 @@ To install the Dark Pattern Buster Chrome Extension, follow these steps:
 ## Usage
 After installation, the Dark Pattern Buster icon will appear in your browser toolbar. Simply visit any website, and the extension will automatically analyze the page for dark patterns. If a dark pattern is detected, you will receive a notification, and the relevant elements will be highlighted on the page.
 
-## Contributing
-If you are interested in contributing to the project, follow these steps:
-
-1. Clone the repository: `git clone [repository-url]`
-2. Make your changes.
-3. Submit a pull request.
-
 ## Support and Feedback
 We welcome feedback and suggestions for improvement. If you encounter any issues or have ideas for enhancing the Dark Pattern Buster Chrome Extension, please reach out to our team at [sitag737@gmail.com].
 
