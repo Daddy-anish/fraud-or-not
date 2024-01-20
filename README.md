@@ -1,4 +1,5 @@
- # Dark Pattern Buster Chrome Extension
+
+Dark Pattern Buster Chrome Extension
 Overview
 Welcome to the Dark Pattern Buster Chrome Extension developed by students from Sikkim Manipal University. Our extension is a powerful tool designed to detect and combat dark patterns on websites, providing users with a more transparent and user-friendly online experience. The project leverages three state-of-the-art language models: RoBERTa, XLNet, and BERT.
 
@@ -11,6 +12,7 @@ User Alerts: Receive real-time alerts when visiting a website that employs decep
 
 Educational Resources: Access resources within the extension to learn more about dark patterns and how to protect yourself online.
 
+Examples of Dark Patterns
 Here are some examples of dark patterns that the extension may identify on e-commerce platforms:
 
 False Scarcity:
@@ -33,14 +35,11 @@ Sneaky Opt-Outs:
 
 Detection: Identifying situations where users are manipulated into unknowingly opting into services or subscriptions.
 Highlight: The extension may alert users to hidden opt-outs and guide them on how to opt-out if desired.
-
 Team Members
 Anish
 Gagan
 Kunsang
 Grenish
-
-
 Installation
 To install the Dark Pattern Buster Chrome Extension, follow these steps:
 
@@ -48,17 +47,14 @@ Download the extension from the [Chrome Web Store].
 Open Google Chrome and navigate to the "Extensions" page (chrome://extensions/).
 Drag and drop the downloaded extension file onto the extensions page to install it.
 Usage
-After installation, the Dark Pattern Buster icon will appear in your browser toolbar.
-Simply visit any website, and the extension will automatically analyze the page for dark patterns.
-If a dark pattern is detected, you will receive a notification, and the relevant elements will be highlighted on the page.
+After installation, the Dark Pattern Buster icon will appear in your browser toolbar. Simply visit any website, and the extension will automatically analyze the page for dark patterns. If a dark pattern is detected, you will receive a notification, and the relevant elements will be highlighted on the page.
+
 Contributing
 If you are interested in contributing to the project, follow these steps:
 
-Clone the repository: git clone 
+Clone the repository: git clone [repository-url]
 Make your changes.
 Submit a pull request.
-
-
 Support and Feedback
 We welcome feedback and suggestions for improvement. If you encounter any issues or have ideas for enhancing the Dark Pattern Buster Chrome Extension, please reach out to our team at [sitag737@gmail.com].
 
