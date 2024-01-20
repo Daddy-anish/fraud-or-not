@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-app.get("/extract", async (req, res) => {
+app.get("/api", async (req, res) => {
     const url = req.query.url;
     const browser = await puppeteer.launch();
     const page = await browser.newPage();

@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import express from "express";
 import cors from "cors";
-import fs from "fs";
+import fs from "fs/promises";
 import fileReader from "./file_reader.js";
 import pythonFile from "./pythonCall.js";
 
@@ -35,8 +35,13 @@ const processUrl = async (url, res) => {
 
     await browser.close();
 
+    // Write to scraped.json
+    const jsonPath = "./scraped.json";
+    const jsonData = JSON.stringify(texts, null, 2);
+    await fs.writeFile(jsonPath, jsonData, "utf8");
+
     // Run file clean process
-    await fileCleanProcess(texts);
+    await fileCleanProcess();
 
     // Call the Python process
     const pythonOutput = await pythonFile.runPythonProcess();
@@ -53,12 +58,15 @@ const processUrl = async (url, res) => {
   }
 };
 
-const fileCleanProcess = (texts) => {
+const fileCleanProcess = async () => {
   try {
-    const cleanedTexts = texts.join("\n");
-    const filePath = "./output.txt";
-    fs.writeFileSync(filePath, cleanedTexts, "utf8");
-    console.log("File clean process completed");
+    const fileCleanOutput = await fileReader.runFileReadProcess();
+    console.log("running file clean process");
+    if (fileCleanOutput === "error faced") {
+      console.log("error faced");
+    } else {
+      console.log("file clean process completed");
+    }
   } catch (error) {
     console.error(error);
     throw new Error("File clean process failed");
