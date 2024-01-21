@@ -4,9 +4,9 @@ import torch
 import re
 
 # Paths to the fine-tuned models
-bert_model_path = r"C:\Users\Hp\OneDrive\Desktop\Extiension\fraud-or-not\DPBH_BERT_Fine_Tuned_Model\DPBH_BERT_Fine_Tuned_Model"
-xlnet_model_path = r"C:\Users\Hp\OneDrive\Desktop\Extiension\fraud-or-not\DPBH_XLNet_Fine_Tuned_Model\DPBH_XLNet_Fine_Tuned_Model"
-roberta_model_path = r"C:\Users\Hp\OneDrive\Desktop\Extiension\fraud-or-not\DPBH_RoBERTa_Fine_Tuned_Model\FIne Tuned Model"
+bert_model_path = r"F:\Projects\hackathon\fraud-or-not\server\models\DPBH_BERT_Fine_Tuned_Model"
+xlnet_model_path = r"F:\Projects\hackathon\fraud-or-not\server\models\DPBH_XLNet_Fine_Tuned_Model"
+roberta_model_path = r"F:\Projects\hackathon\fraud-or-not\server\models\FIne Tuned Model"
 
 # Load models and tokenizers
 bert_tokenizer = BertTokenizer.from_pretrained(bert_model_path)
@@ -69,7 +69,7 @@ def count_dark_patterns(text_file):
     return dark_patterns
 
 
-result = count_dark_patterns('scraped.txt')
+result = count_dark_patterns('output.txt')
 
 result.pop("Not Dark Pattern", None)
 
