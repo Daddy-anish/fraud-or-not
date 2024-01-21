@@ -6,7 +6,7 @@ Welcome to the Dark Pattern Buster Chrome Extension developed by students from S
 ### Features
 **Pattern Detection:** The extension utilizes three advanced LLM models—RoBERTa, XLNet, and BERT—to detect and highlight potential dark patterns on websites.
 
-**Dataset:** We have gathered a comprehensive dataset from various sources to train and fine-tune our models for accurate pattern detection.
+**Dataset:** We have gathered a comprehensive dataset from various sources to train and fine-tune our models for accurate pattern detection. The dataset has been taken from 
 
 **User Alerts:** Receive real-time alerts when visiting a website that employs deceptive design practices.
 
@@ -42,7 +42,7 @@ Here are some examples of dark patterns that the extension may identify on e-com
 - Grenish
 
 ## Installation
-To install the Dark Pattern Buster Chrome Extension, follow these steps:
+To install the Dark Pattern Buster(Pixet) Chrome Extension, follow these steps:
 
 1. Download the extension from the [Chrome Web Store].
 2. Open Google Chrome and navigate to the "Extensions" page (chrome://extensions/).
@@ -54,4 +54,9 @@ After installation, the Dark Pattern Buster icon will appear in your browser too
 ## Support and Feedback
 We welcome feedback and suggestions for improvement. If you encounter any issues or have ideas for enhancing the Dark Pattern Buster Chrome Extension, please reach out to our team at [sitag737@gmail.com].
 
-Thank you for using the Dark Pattern Buster Chrome Extension! We hope it empowers you to navigate the web safely and promotes a more ethical online environment.
+Thank you for using the Dark Pattern Buster Chrome Extension (Pixet) We hope it empowers you to navigate the web safely and promotes a more ethical online environment.
+
+Acknowledgements
+   This project is based on the Mathur et al.’s study and its dataset. We thank their authors for making the source code publically available.
+
+   We have also used the dataset from YadaYuki's workshop on IEEE BigData 2022 which was also updated from Mathur et al's datset
