@@ -90,7 +90,6 @@ bert_tokenizer, bert_model, xlnet_tokenizer, xlnet_model, roberta_tokenizer, rob
 models = [bert_model, xlnet_model, roberta_model]
 tokenizers = [bert_tokenizer, xlnet_tokenizer, roberta_tokenizer]
 
-# Assuming 'output.txt' is in the same directory as the models
 result = count_dark_patterns("./output.txt", models, tokenizers)
 
 if result is not None:
