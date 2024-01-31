@@ -28,7 +28,7 @@ def count_dark_patterns(text_file):
     with open(text_file, 'r', encoding='utf-8') as file:
         text_content = file.read()
 
-    # Map category names to numeric labels
+    # Mapping category names to numeric labels
     category_mapping = {"Urgency": 0, "Not Dark Pattern": 1, "Scarcity": 2, "Misdirection": 3, "Social Proof": 4,
                         "Obstruction": 5, "Sneaking": 6, "Forced Action": 7}
 
@@ -52,7 +52,6 @@ def count_dark_patterns(text_file):
 
     return dark_patterns, total_sentences
 
-# Assuming 'scraped.txt' is in the same directory as the model
 result, total_sentences = count_dark_patterns('scraped.txt')
 
 for category, count in result.items():
