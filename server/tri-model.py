@@ -28,6 +28,9 @@ def count_dark_patterns(text_file):
     with open(text_file, 'r', encoding='utf-8') as file:
         text_content = file.read()
 
+    # Remove whitespaces
+    text_content = re.sub(r'\s+', ' ', text_content)
+
     # Mapping category names to numeric labels
     category_mapping = {"Urgency": 0, "Not Dark Pattern": 1, "Scarcity": 2, "Misdirection": 3, "Social Proof": 4,
                         "Obstruction": 5, "Sneaking": 6, "Forced Action": 7}
